@@ -1,0 +1,30 @@
+.chessboard {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: white;
+
+    width: 800px;
+    height: 800px;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+}
+
+.tile img {
+    width: 80%;
+}
+
+.light {
+    background-color: var(--light);
+}
+
+.dark {
+    background-color: var(--dark);
+}

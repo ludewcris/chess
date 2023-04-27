@@ -1,0 +1,17 @@
+:root {
+    --dark: rgb(112,162,163);
+    --light: rgba(177,228,185);
+}
+
+body {
+    margin: 0;
+    padding: 4rem;
+    
+    background-color: black;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
