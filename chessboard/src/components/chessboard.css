@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
 
-    background-color: white;
+    background-image: url("../assets/boards/wood4.jpg");
+    background-size: contain;
 
     width: 800px;
     height: 800px;
@@ -18,13 +19,13 @@
 }
 
 .tile img {
-    width: 80%;
+    width: 100%;
 }
 
-.light {
+/* .light {
     background-color: var(--light);
 }
 
 .dark {
     background-color: var(--dark);
-}
+} */
